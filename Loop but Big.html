@@ -1,0 +1,31 @@
+<!-- Adam Lucas -->
+<!-- 10/6/2022 -->
+
+<!DOCTYPE html>
+<html>
+<body>
+
+<!-- Making the loop id -->
+
+<p id="loop"></p>
+
+<!-- Setting up JavaScript -->
+
+<script>
+
+<!-- Setting the numbers -->
+
+const numbers = ["1000", "2000", "3000", "4000", "5000"];
+
+<!-- Making it print out the numbers -->
+
+let text = "";
+for (let i = 0; i < numbers.length; i++) {
+  text += numbers[i] + "<br>";
+}
+
+document.getElementById("loop").innerHTML = text;
+</script>
+
+</body>
+</html>
